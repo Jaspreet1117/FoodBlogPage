@@ -1,0 +1,144 @@
+
+
+/* Style for the Sign-Up Section */
+.sign-up-section {
+    background-color: #f7f7f7;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Limit width to prevent it from stretching too wide */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sign-up-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #e74c3c;
+}
+
+.sign-up-section p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.signup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Adding a little space between form and button */
+}
+
+.signup-form input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 250px;
+}
+
+.signup-form button {
+    padding: 10px 20px;
+    background-color: #e47709;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design for Sign-Up Section */
+@media (max-width: 768px) {
+    .signup-form {
+        flex-direction: column;
+    }
+
+    .signup-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .signup-form button {
+        width: 100%;
+    }
+}
+
+/* Social Media Icons */
+.fa-icon {
+    font-size: 34px; /* Adjust the size as needed */
+    margin: 0 10px; /* Spacing between icons */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #F5DEB3;
+    color: black;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+
+/* Footer Social Media Styling */
+footer .fa-icon {
+    margin: 10px 0;
+}
+
+footer .fa-icon i {
+    margin: 0 15px; /* Spacing between each social media icon */
+    cursor: pointer;
+}
+
+footer .fa-icon i:hover {
+    color: #007bff; /* Hover effect for icons */
+}
+
+/* Social Media Section in Footer */
+.social-media {
+    margin-bottom: 15px;
+}
+
+/* Legal Section Styling */
+.legal {
+    font-size: 14px;
+    color: #333;
+}
+
+.legal a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.legal a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+footer {
+    background-color: #f0e5d8;
+    text-align: center;
+    padding: 20px;
+    width: 100%; /* Ensures footer takes up full width */
+    margin-top: 30px;
+    position: relative;
+    left: 0; /* Removes any offset */
+}
+.container { /* If there's a container around footer, ensure it doesn't restrict its width */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
